@@ -22,7 +22,7 @@ function CarList() {
     return (
       <div key={car.id} className={`panel ${bold && 'bold'}`}>
         <p>
-          {car.name} - ${car.cost}
+          {car.name} - {car.cost}&#8364;
         </p>
         <button
           className="button is-danger"
